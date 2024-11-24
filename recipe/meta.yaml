@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/statannotations-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/statannotations-{{ version }}.tar.gz
   sha256: ae6fb48058fcb6f895995af2eb67c54e462e8ac354f3159d20f2e2717515a58d
 
 build:
