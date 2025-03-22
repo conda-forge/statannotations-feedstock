@@ -1,5 +1,5 @@
 {% set name = "statannotations" %}
-{% set version = "0.7.1" %}
+{% set version = "0.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/statannotations-{{ version }}.tar.gz
-  sha256: a91ac33b4f5027dca60e4120e3c7ff9f3287f8216ec38348a4f65255b02a0668
+  sha256: a93e428682d66c9fca5a399d5bd3fe7c9cef0500f53840c6f5362526b4501e93
 
 build:
   noarch: python
